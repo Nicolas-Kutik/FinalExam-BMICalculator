@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "402246219920",
+    "project_id": "bmi-final",
+    "storage_bucket": "bmi-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402246219920:android:4ad840e347bc3506d94015",
+        "android_client_info": {
+          "package_name": "ca.lakeheadu.finalexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHTtrFfe1MrMiD3QRWWPdUASpaqTX5Lh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
