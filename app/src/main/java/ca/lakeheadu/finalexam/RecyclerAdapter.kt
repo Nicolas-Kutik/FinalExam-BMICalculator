@@ -21,9 +21,18 @@ class RecyclerAdapter(private var dataSet: List<Data>) :
 
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int)
     {
-        viewHolder.binding.dataItem1.text = dataSet[position].dataItem1
-        viewHolder.binding.dataItem2.text = dataSet[position].dataItem2
-        viewHolder.binding.dataItem3.text = dataSet[position].dataItem3
+        viewHolder.binding.dataItem1.text = dataSet[position].weight
+        viewHolder.binding.dataItem2.text = dataSet[position].height
+        viewHolder.binding.dataItem3.text = dataSet[position].date
+    }
+
+    //Calculates the BMI
+    override fun calculateBMIImperial(weight: Double, height: Double): Double {
+        return weight*703 / (height * height)
+    }
+
+    override fun calculateBMIMetric(weight: Double, height: Double): Double {
+        return weight / (height * height)
     }
 
     override fun getItemCount() = dataSet.size

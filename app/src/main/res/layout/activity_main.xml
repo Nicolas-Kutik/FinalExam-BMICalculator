@@ -159,6 +159,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:checked="false"
             android:text="ToggleButton"
             android:textOff="Metric Off"
             android:textOn="Metric On" />
@@ -168,6 +169,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:checked="false"
             android:text="ToggleButton"
             android:textOff="Imperial Off"
             android:textOn="Imperial On" />
@@ -195,7 +197,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/BMI_number"
+            android:id="@+id/BMI_calculated"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

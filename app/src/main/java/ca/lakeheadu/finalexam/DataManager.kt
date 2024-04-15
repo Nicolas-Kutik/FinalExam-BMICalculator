@@ -22,7 +22,7 @@ class DataManager private constructor()
             }
     }
 
-    fun addBMI(newBMI: Data, onComplete: (Boolean) -> Unit) {
+    fun addBMI(newBMI: MutableList<Data>, onComplete: (Boolean) -> Unit) {
         collectionRef
             .add(newBMI)
             .addOnSuccessListener {
