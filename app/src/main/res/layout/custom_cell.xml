@@ -4,7 +4,8 @@
     android:layout_height="@dimen/list_item_height"
     android:layout_marginLeft="@dimen/margin_medium"
     android:layout_marginRight="@dimen/margin_medium"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    android:background="@color/material_dynamic_neutral_variant100">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,21 +17,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/cell_margin"
-            android:text="DataItem1" />
+            android:text="Weight:" />
 
         <TextView
             android:id="@+id/dataItem2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/cell_margin"
-            android:text="DataItem2" />
+            android:text="Height:" />
 
         <TextView
             android:id="@+id/dataItem3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/cell_margin"
-            android:text="DataItem3" />
+            android:text="Date:" />
 
         <View
             android:id="@+id/divider"
